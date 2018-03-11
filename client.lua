@@ -62,11 +62,17 @@ function menu:OnMenuClose()
 end
 
 function menu:onButtonSelected(name,btn)
-	if name == "Targetting" then
-		targetting = true
+	if name == "25mm Gun" then
+		25mm = true
 		menu:Close()
 	elseif name == "Surveillance" then
 		surveillance = true
+		menu:Close()
+		elseif name == "40mm Cannon" then
+		40mm = true
+		menu:Close()
+		elseif name == "100mm Cannon" then
+		100mm = true
 		menu:Close()
 	end
 end
