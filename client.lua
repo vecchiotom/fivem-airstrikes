@@ -23,7 +23,9 @@ local countdown_text = 3
 
 menu = Menu.new("Airstrike","",0.15,0.1,0.28,0.4,0)
 menu.config.pcontrol = false
-menu:addButton("Targetting","Fire an Airstrike on a target.")
+menu:addButton("25mm Gun","Fire an Airstrike on a target with a 25mm Gun")
+menu:addButton("40mm Cannon","Fire an Airstrike on a target with a 40mm Cannon")
+menu:addButton("100mm Cannon","Fire an Airstrike on a target with a 100mm Cannon")
 menu:addButton("Surveillance","Observe the Area using the optics of the Airstrike Camera.")
 
 function DrawTextXY(text, settings)
