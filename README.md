@@ -1,6 +1,6 @@
 # Realistic Aircraft Airstrikes
 
-This resource allows for individuals to use airstriking mechanisims in-game for the purposes of Military Simulation.
+This resource allows for individuals to use air-striking mechanisms in-game for the purposes of Military Simulation.
 
 # Features
 - Conduct Airstrikes by pressing 'E' when inside the Lazer.
